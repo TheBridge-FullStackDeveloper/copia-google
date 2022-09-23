@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  all: unset;
+  font-size:14px;
+  cursor: pointer;
+  margin-left: 15px;
+
+}
+
+.loginBtn{
+    font-weight: 500;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    margin-left: 10px;
+    margin-right: 8px;
+    padding: 9px 23px;
+    border-radius: 4px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 440px;
+}
+
+.search{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+.microphone{
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+.menu-icon{
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+    margin-left: 5px;
+}
+.input-search{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 34px;
+    font-size: 16px;
+    width: 500px;
+}
+
+.search-container{
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    min-width: 584px;
+    margin: 20px;
+}
+.buttons-container > button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.links-container > span{
+    color: #4d5156;
+    font-size: small;
+}
+.links-container> a{
+    color: #1a0dab;
+}
